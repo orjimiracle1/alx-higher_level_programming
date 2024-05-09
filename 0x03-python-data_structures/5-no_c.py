@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    l = list(my_string)
-    for x in l:
+    le = list(my_string)
+    for x in le:
         if x == 'c':
-            l.remove('c')
+            le.remove('c')
         if x == 'C':
-            l.remove('C')
-    my_string = "".join(l)
+            le.remove('C')
+    my_string = "".join(le)
     return my_string
