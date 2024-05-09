@@ -1,4 +1,5 @@
-n_list(my_list, idx, element):
+#!/usr/bin/python3
+def new_in_list(my_list, idx, element):
     copy = my_list.copy()
     for x in my_list:
         if idx == my_list.index(x):
